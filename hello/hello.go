@@ -5,8 +5,8 @@ import (
 	"golang.org/x/example/stringutil"
 	"log"
 )
-import "greetings"
-import "upper"
+import "example/greetings"
+import "example/upper"
 
 func main() {
 	log.SetPrefix("greeting: ")
