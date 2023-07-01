@@ -2,9 +2,11 @@ package main
 
 import (
 	"fmt"
+	"golang.org/x/example/stringutil"
 	"log"
 )
-import "example.com/greetings"
+import "greetings"
+import "upper"
 
 func main() {
 	log.SetPrefix("greeting: ")
@@ -19,4 +21,6 @@ func main() {
 		log.Fatal(err)
 	}
 	fmt.Println(messages)
+	fmt.Println(stringutil.Reverse("Hello"))
+	fmt.Println(upper.ToUpper("Hello"))
 }

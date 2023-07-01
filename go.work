@@ -1,6 +1,8 @@
 go 1.20
 
 use (
-	hello
 	greetings
+	hello
+	upper
+	web-service-gin
 )
